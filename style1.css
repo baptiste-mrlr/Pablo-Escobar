@@ -42,13 +42,20 @@ header h1 {
   position: fixed;
   top: 35px;
   left: 100px;
+  transition: font-size 0.25s;
 }
 
-#Questionnaire {
-  color : white;
-  position: fixed;
-  top: 35px;
-  left: 100px;
+#Questionnaire:hover {
+  font-size: 1.2em; /* Taille de la police agrandie */
+}
+
+.Icônes {
+  width: 80px;
+  transition: width 0.25s;
+}
+
+.Icônes:hover {
+  width: 100px;
 }
 
 main {
@@ -100,7 +107,6 @@ section h3 {
 .custom-audio {
   width: 100%;
 }
-
 
 .custom-audio::-webkit-media-controls-panel {
   display: flex;
