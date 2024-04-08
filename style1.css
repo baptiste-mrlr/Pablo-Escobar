@@ -81,6 +81,11 @@ section h3 {
   text-decoration: underline;
 }
 
+section p {
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
 .sommaire {
   display: flex;
   justify-content: space-evenly;
@@ -98,10 +103,6 @@ section h3 {
 
 .texte p {
   text-align: justify;
-}
-
-.quizizz h2 {
-  margin-bottom: 0px;
 }
 
 .custom-audio {
@@ -135,6 +136,14 @@ section h3 {
 
 .custom-audio::-webkit-media-controls-timeline {
   width: calc(100% - 70px);
+}
+
+.Youtube {
+  display: flex;
+  width:576px; height:1024px; margin-top:20px;
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center; /* Centrer verticalement */
+  height: 100vh; /* Hauteur de l'écran */
 }
 
 footer {
